@@ -522,6 +522,7 @@ footer {
     margin: 10px;
     box-sizing: border-box;
     height: auto;
+    
   }
 
 
@@ -764,7 +765,6 @@ footer {
     height: 500px;
     border: 2px solid black;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
     gap: 10px;
 
@@ -794,7 +794,6 @@ footer {
   #sweet_rate_list{
     height: 508px;
     text-align: center;
-    display: inline-table;
     gap: 15px;
 
   }
@@ -815,16 +814,49 @@ footer {
 
 
   #form_box{
-    margin-left: 5px;
-    display: inline;
-    position: relative;
+    margin-left: 1px;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
-    
+    border-radius: 10px;
+    font-weight: bold;
 
   }
 
+
+  #order_online{
+    width: 665px;
+    border-radius: 10px;
+    padding: 0;
+
+  }
+
+
+  #order_input{
+    border: 2px solid rgb(23, 52, 140);
+    border-radius: 10px;
+  }
   
+
+  textarea{
+    border: 2px solid rgb(23, 52, 140);
+    border-radius: 10px;
+  }
+
+
+  #abt_us{
+    margin-left: 740px;
+    margin-bottom: 100px;
+    width: 1250px;
+    display: inline-block;
+    text-align: center;
+
+  }
+
+
+  #centering_about_us{
+    display:inline-block;
+  }
+
 
 
 
